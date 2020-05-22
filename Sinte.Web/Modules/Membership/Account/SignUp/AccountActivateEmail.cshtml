@@ -1,0 +1,21 @@
+﻿@model Sinte.Membership.ActivateEmailModel
+
+<html>
+<head>
+    <title>Activate your Sinte account</title>
+</head>
+<body>
+    <p>@Model.DisplayName,</p>
+
+    <p>We received a request to create a new account on Sinte with your e-mail address.</p>
+
+    <p>Click the link below to activate your account:</p>
+
+    <p><a href="@Model.ActivateLink">@Model.ActivateLink</a></p>
+
+    <p>If it wasn't you who requested this, you can ignore this email.</p>
+
+    Thanks,
+    The "Sinte" Team
+</body>
+</html>
